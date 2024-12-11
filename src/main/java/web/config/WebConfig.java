@@ -19,7 +19,6 @@ public class WebConfig implements WebMvcConfigurer {
     private final ApplicationContext applicationContext;
 
     public WebConfig(ApplicationContext applicationContext) {
-        System.out.println("WebConfig constructor");
         this.applicationContext = applicationContext;
     }
 
